@@ -10,8 +10,8 @@ on:
 env:
   DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
   IMAGE_NAME: devops-challenge-app
-  EKS_CLUSTER_NAME: my-eks-cluster # Change to your actual cluster name
-  AWS_REGION: us-east-1            # Change to your actual AWS region
+  EKS_CLUSTER_NAME: devops-challenge-cluster # Updated to match the provisioned cluster
+  AWS_REGION: us-east-1            # Updated to match the provisioned cluster
 
 jobs:
   build-and-deploy:
