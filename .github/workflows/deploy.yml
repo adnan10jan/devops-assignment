@@ -10,7 +10,7 @@ on:
 env:
   DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
   IMAGE_NAME: devops-challenge-app
-  EKS_CLUSTER_NAME: devops-challenge-cluster # Updated to match the provisioned cluster
+  EKS_CLUSTER_NAME: devops-challenge-v2 # Updated to match the provisioned cluster
   AWS_REGION: us-east-1            # Updated to match the provisioned cluster
 
 jobs:
